@@ -25,3 +25,4 @@ Spanish vocab : 42177
 Italian vocab : 42288
 
 Here the size of vocab for each of the class is less. Need to collect more example to increase vocab size. Then it can be used to train neural nets by feeding vectors of these words as input and classifying them into classes. This can be implemented using tensorflow. We can convert words to vectors form using word2vec algorithm implemented in gensim.
+4. Can use these above methods and apply ensembling method such as voting method on top of these methods to get the result.
